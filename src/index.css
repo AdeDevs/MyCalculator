@@ -1,0 +1,52 @@
+/*
+app variables
+*/
+
+:root {
+  --action-key-color: #333;
+  --action-key-color-hover: rgb(141, 141, 141);
+  --calculator-background-color: #278b9c;
+  --display-background-color: #1d1f1f;
+  --number-key-color: #333;
+  --number-key-color-hover: #fff;
+  --submit-key-color: #333;
+  --submit-key-color-hover: #fff;
+  text-transform: uppercase;
+
+  --main-font: 'Poppins', sans-serif;
+
+  --display-text-color: #89edff;
+  --key-text-color: #d3d3d3;
+
+  --display-text-size: 3.2em;
+  --key-text-size: 2em;
+
+  --display-text-weight: 400;
+  --key-text-weight: 700;
+
+  --calculator-height: 70%;
+  --calculator-width: 31%;
+
+  --display-height: 24%;
+  --display-width: 92%;
+
+  --keypad-height: 72%;
+  --keypad-width: 96%;
+}
+
+@media screen and (max-width: 1024px) {
+  :root {
+    --display-text-size: 6em;
+    --key-text-size: 3em;
+
+    --calculator-height: 100%;
+    --calculator-width: 100%;
+  }
+}
+
+body,
+div,
+p {
+  margin: 0;
+  padding: 0;
+}

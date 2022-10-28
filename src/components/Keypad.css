@@ -1,0 +1,34 @@
+.keypad-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #333;
+  height: var(--keypad-height);
+  padding: 2%;
+  width: var(--keypad-width);
+  border: 1px solid #000;
+}
+
+.numbers-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #333;
+  flex-wrap: wrap;
+  height: 80%;
+  background-color: transparent;
+  width: 75%;
+}
+
+.operators-container {
+  display: flex;
+  background-color: #333;
+  flex-direction: column;
+  background-color: transparent;
+  height: 80%;
+  width: 25%;
+}
+
+.submit-container {
+  height: 20%;
+  width: 100%;
+}
